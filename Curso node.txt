@@ -1,0 +1,39 @@
+Instla??o:
+
+-nodejs
+iniciar o node
+	node noticias.js
+
+	-npm (gerenciador de dependencias)
+-npm ja vem junto c o nodejs
+	npm -v
+	npm init (iniciar  npm no projeto)
+configurar o parametro package.json
+
+-express (framework para aplicato web do node q fornece um conjunto de recursos)
+	npm install express -save
+	//subir o servidor usando o express
+	node app.js	
+
+-EJS (egine de views - separar o javascript do html)
+	npm install ejs --save
+
+-nodemon (recurso do ambiente de desenvolvimento para nao precisar ficar reinciando o servidor)
+para rodar o servidor com este recurso node mons
+	npm install -g nodemon
+	nodemon app.js
+	
+Modulos 
+	modulariza??o de codigos
+	reaproveitamento de codigo
+CommonJS
+	formato para constru??o destes modulos
+	module.exports = function() qdo um fazemos um require de um modulo e ele retorna uma fun??o ? necessario que fa?a a 
+execu??o desta fun??o de retorno usando 
+	var msg = require('./mod_teste')(); ou
+	console.log(msg());
+	
+	
+//Criar modulo para configura??o do servidor
+	
+	

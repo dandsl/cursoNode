@@ -1,0 +1,13 @@
+Versionar o projeto (aula 10 do curso Spring)
+iniciar um repositorio na pasta do projeto pelo git bash
+	git init
+logar no git ver o email q esta usando em profile
+no gitbash
+	git config --global user.name "Daniel Souza"
+	git config --global user.email "dandsl@hotmail.com"
+	git status
+	git add .  //adicionar todos os arquivos para area de stade ficando prontos p serem gravados como uma versao
+	git status
+	git commit -m "Projeto node criado"
+	git log
+	
