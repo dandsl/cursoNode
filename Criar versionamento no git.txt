@@ -11,3 +11,18 @@ no gitbash
 	git commit -m "Projeto node criado"
 	git log
 	
+Ir no github e criar o projeto na pagina principal
+	new repositorio
+	escolher o nome p o projeto e criar
+	apos criado copiar a linha
+	git remote add origin https://github.com/dandsl/cursoNode.git  //vinculou o projeto da maquina com o github
+	executar no gitbash
+	git push -u origin master
+	
+para proximos comits
+	git add .  //adicionar todos os arquivos para area de stade ficando prontos p serem gravados como uma versao
+	git status
+	git commit -m "Descrição"
+	git log
+	git push	
+	
