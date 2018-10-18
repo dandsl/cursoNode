@@ -32,9 +32,14 @@ CommonJS
 execu??o desta fun??o de retorno usando 
 	var msg = require('./mod_teste')(); ou
 	console.log(msg());
-	
-	
+		
 //Criar modulo para configuracao do servidor
 
-	
+//Instalação do mysql (modoulo q funciona como o drive)
+	npm install mysql --save
+
+Instalar o mysql na maquina
+entrar no diretorio de instalação
+Arquivo de Programas\MySql\MySQL Server	8,0\bin
+	mysql -u root -p
 	
