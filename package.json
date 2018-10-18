@@ -11,5 +11,14 @@
   "dependencies": {
     "ejs": "^2.6.1",
     "express": "^4.16.4"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dandsl/cursoNode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dandsl/cursoNode/issues"
+  },
+  "homepage": "https://github.com/dandsl/cursoNode#readme"
 }

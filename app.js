@@ -4,18 +4,22 @@
 */
 var app = require('./config/server');
 
-//função get(param1,param2) home da pagina, função request e response
-app.get('/',function(req,res){
-	res.render("home/index");
-});
+//var rotaNoticias = require('./app/routes/noticias');
+//rotaNoticias(app);
 
-app.get('/formulario_inclusao_noticia',function(req,res){
-	res.render("admin/form_add_noticia");
-})
+//var rotaHome = require('./app/routes/home');
+//rotaHome(app);
 
-app.get('/noticias',function(req,res){
-	res.render("noticias/noticias");
-})
+//var rotaFormulario = require('./app/routes/formulario_inclusao_noticia');
+//rotaFormulario(app);
+
+//Outra maneira executando o require da função ja executando a função
+var rotaNoticias = require('./app/routes/noticias')(app);
+
+var rotaHome = require('./app/routes/home')(app);
+
+var rotaFormulario = require('./app/routes/formulario_inclusao_noticia')(app);
+
 
 //comando para subir o servidor usando o express
 app.listen(3000,function(){

@@ -24,7 +24,7 @@ para rodar o servidor com este recurso node mons
 	nodemon app.js
 	
 Modulos 
-	modulariza??o de codigos
+	modularizacoo de codigos
 	reaproveitamento de codigo
 CommonJS
 	formato para constru??o destes modulos
@@ -34,6 +34,7 @@ execu??o desta fun??o de retorno usando
 	console.log(msg());
 	
 	
-//Criar modulo para configura??o do servidor
+//Criar modulo para configuracao do servidor
+
 	
 	
